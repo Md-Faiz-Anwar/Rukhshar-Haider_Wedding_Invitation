@@ -27,6 +27,7 @@
     --border: rgba(184,154,90,0.35);
 
     --haldi: #E5B93F;
+    --pink: rgb(95, 65, 70);
     
 }
 
@@ -1046,7 +1047,7 @@ select {
 
 .event-card.featured {
 
-    background: var(--green);
+    background: var(--pink); 
 
     color: var(--white);
 
@@ -1062,7 +1063,7 @@ select {
 
 .feature1 {
 
-    background: var(--white);
+    background: var(--green);
 }
 
 
@@ -1147,8 +1148,16 @@ select {
 
     letter-spacing: 3px;
 
-    color: var(--gold);
+    color: var(--white);
 
+}
+
+.mehndi {
+    color: var(--white);
+}
+
+.haldi {
+    color: var(--white);
 }
 
 
@@ -1162,6 +1171,7 @@ select {
 
     margin: 8px 0;
 
+
 }
 
 
@@ -1169,8 +1179,14 @@ select {
 
     font-size: 11px;
 
-    color: var(--green);
+    color: var(--cream);
 
+}
+
+.event-date11 {
+    font-size: 11px;
+
+    color: var(--gold);
 }
 
 
